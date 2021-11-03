@@ -99,11 +99,11 @@ nav{
     flex-basis: 50%;
 }
 #p-title{
-    font-size: 80px;
+    font-size: 20px;
     font-weight: bold;
 }
 .about-right-col p{
-    font-size: 50px;
+    font-size: 20px;
     text-align: justify;
 }
 #skills{
@@ -173,8 +173,9 @@ progress{
     background: linear-gradient(160deg,#e74c3c 45%, white 0%);
 }
 .section-info a img{
-    width: 8%;
-    padding: 50px;
+    width: 5%;
+    padding: 30px;
+    
 }
 .contact-row{
     display: flex;
@@ -268,6 +269,11 @@ progress{
     }
     .contact-right-col{
         flex-basis: 100%;
+
+    }
+    .section-info a img{
+        width: 50%;
+
     }
 
 }
